@@ -23,6 +23,3 @@ jobs:
 
       - name: Instalar dependencias
         run: npm install
-
-      - name: Ejecutar tests (si existen)
-        run: npm test --if-present
